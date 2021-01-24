@@ -53,6 +53,10 @@ The Dataframe has below features :
 * we can also see that there is negative linear relationship between hum and cnt.
 * there is no linear relationship with cnt and other features.
 
+![DataFrame](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/countVSlinearvariables.png)
+
+
+![DataFrame](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/count vs categorical variables.png)
 
 
 ## Feature Engineering
