@@ -25,12 +25,13 @@ The goal of the project is to work on the Bike share Dataset and predict the dem
 **weathercode** :category of the weather\
 **isholiday** :boolean field - 1 holiday / 0 non holiday\
 **isweekend** :boolean field - 1 if the day is weekend\
-**season** :category field meteorological seasons:\
+**season** :category field meteorological seasons:
    > 0-spring\
    > 1-summer\
    > 2-fall\
    > 3-winter.\
-**weathe_code** :category description:\
+   
+**weathe_code** :category description:
    > 1 = Clear ; mostly clear but have some values with haze/fog/patches of fog/ fog in vicinity\
    > 2 = scattered clouds / few clouds\ 
    > 3 = Broken clouds\
