@@ -1,6 +1,6 @@
 # Bike Demand Prediction With Regression Models and GridsearchCV
 
-![GitHub Logo](https://github.com/PurushothamVadde/Bike_Demand_Prediction/blob/main/Images/image1.jpg)
+![BikeShare](https://github.com/PurushothamVadde/Bike_Demand_Prediction/blob/main/Images/image1.jpg)
 
 ## Business Understanding
 #### Project Goal:
@@ -12,7 +12,7 @@ The goal of the project is to work on the Bike share Dataset and predict the dem
     * Better planning on the days/hours have high demand.
     * Increase the profit by managing the bikes based on demand.
 ## Data Understanding
-
+![DataFrame](https://github.com/PurushothamVadde/Bike_Demand_Prediction/blob/main/Images/Dataframe.jpg)
 ## Exploratory Data Analysis
 
 ## Feature Engineering
