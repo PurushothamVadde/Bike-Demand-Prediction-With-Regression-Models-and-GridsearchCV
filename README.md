@@ -14,8 +14,6 @@ The goal of the project is to work on the Bike share Dataset and predict the dem
   
  Data Source: Https://cycling.data.tfl.gov.uk/
 ## Data Understanding
-![DataFrame](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/Dataframe.png)
-
 **timestamp** :timestamp field for grouping the data\
 **cnt** :the count of a new bike shares\
 **t1** :real temperature in C\
@@ -39,11 +37,12 @@ The goal of the project is to work on the Bike share Dataset and predict the dem
    > 7 = Rain or light Rain shower or Light rain.\
    > 10 = rain with thunderstorm.\
    > 26 = snowfall.\
-   > 94 = Freezing Fog.\
+   > 94 = Freezing Fog.
     
-* In the above table we can see the few rows of Bikesharing dataframe:
+* from the above, we can see the few rows of Bikesharing dataframe:
    * The dataframe has 17414 entries, from 0 to 17413.
    * All the features in the dataframe are numerical.
+   * We have categorical features such as Weathercode, isholiday, isweekend, season.
    * There are **0** Null values inthe complete dataframe.
    * The timestamp feature is splitted into Day, Month, Year and Hours features.
 
