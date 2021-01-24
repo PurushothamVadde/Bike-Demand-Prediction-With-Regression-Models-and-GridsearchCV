@@ -85,11 +85,32 @@ we applied the onehot encoding on the categorical features 'Weather_code','seaso
 After applying the Minmaxscalar and onehot encoding on the features we got the dataframe with 24 features as below.
 ![DataFrame](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/Dataframe%20(2).png)
 
-
-
-
- 
-
 ## Modeling and Performance Tuning
+#### Regression Models
 
+* By predicting the Bike sharing demand on daily basis using the Linear regression models and error evaluation metric as Root Mean Square Error i got errors for each model as     below.
+* Without tuning the performance metrics we got the best results with Linear Regression model with Test_RMSE as 905.633076  where as the Train RMSE is 885.999083.
+		
+|     Model          | Train RMSE         | Tuning Parameters  |      Test RMSE     |
+| :------------------| :------------------| :------------------| :------------------|
+| Linear_Regression  | 885.999083         | none               | 905.633076         |
+| Lasso              | 886.790976         | none               | 906.141956         |
+| Ridge              | 886.086497         | none               | 905.764295         |
+| Elastic            | 886.944678         | none               | 906.506568         |
+
+#### Regression Models With GridSearchCV
+* **Lasso With GridsearchCV**
+![DataFrame](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/alphavsRMSElasso.png)
+
+* By using the GridsearchCV with CV as 10 and different alpha values we got the RMSE error as above plot.
+* We can see that the RMSE value increases as the alpha value increases from 0.0
+* The Optimal alpha value where the RMSE value is low is 'alpha': 0.0010000000000000024.
+
+
+|     Model                            | Train RMSE         | Tuning Parameters                                  |      Test RMSE     |
+| :----------------------------------- | :------------------| :------------------------------------------------- | :------------------|
+| Linear_Regression                    | 885.999083         | none                                               | 905.633076         |
+| Lasso_with_GridsearchCV              | 886.790976         | {'alpha': 0.0010000000000000024}                   | 886.851327         |
+| Ridge_with_GridsearchCV              | 886.086497         | {'alpha': 0.03162277660168379}                     | 886.851185         |
+| Elastic_with_GridsearchCV            | 886.944678         | {'alpha': 1.5848931924611134e-05, 'l1_ratio': 0.8} | 886.851187         |
 ## Model Evaluation and Conclusion
