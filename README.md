@@ -139,3 +139,5 @@ From the below table we can see that we got the best results by parameter tuning
 
 
 ## Conclusion
+
+By this project we are able to predict the Bike sharing demand on daily basis with more accuracy. the Bike sharing companies can use this project for predicting the demand of bike sharing which helps them in managing the bikes in correct manner which helps in increase of profits.
