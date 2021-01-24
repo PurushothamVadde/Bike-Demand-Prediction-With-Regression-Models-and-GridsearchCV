@@ -14,6 +14,7 @@ The goal of the project is to work on the Bike share Dataset and predict the dem
   
  Data Source: Https://cycling.data.tfl.gov.uk/
 ## Data Understanding
+The Dataframe has below features :
 **timestamp** :timestamp field for grouping the data\
 **cnt** :the count of a new bike shares\
 **t1** :real temperature in C\
@@ -48,7 +49,11 @@ The goal of the project is to work on the Bike share Dataset and predict the dem
 
 ## Exploratory Data Analysis
 ![DataFrame](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/Correlation_Matrix.png)
-* from the above correlation matrix we can see that there is a positive linear relation ship
+* from the above correlation matrix we can see that there is a positive linear relationship between the features t1, t2, hour, windspeed and cnt.
+* we can also see that there is negative linear relationship between hum and cnt.
+* there is no linear relationship with cnt and other features.
+
+
 
 ## Feature Engineering
 
