@@ -29,17 +29,17 @@ The goal of the project is to work on the Bike share Dataset and predict the dem
    > 0-spring\
    > 1-summer\
    > 2-fall\
-   > 3-winter.\
+   > 3-winter.
    
 **weathe_code** :category description:
-   > 1 = Clear ; mostly clear but have some values with haze/fog/patches of fog/ fog in vicinity\
-   > 2 = scattered clouds / few clouds\ 
-   > 3 = Broken clouds\
-   > 4 = Cloudy\ 
-   > 7 = Rain/ light Rain shower/ Light rain\
-   > 10 = rain with thunderstorm\
-   > 26 = snowfall\ 
-   > 94 = Freezing Fog\
+   > 1 = Clear mostly clear but have some values with haze or fog or patches of fog or fog in vicinity.\
+   > 2 = scattered clouds or few clouds.\
+   > 3 = Broken clouds.\
+   > 4 = Cloudy.\
+   > 7 = Rain or light Rain shower or Light rain.\
+   > 10 = rain with thunderstorm.\
+   > 26 = snowfall.\
+   > 94 = Freezing Fog.\
     
 * In the above table we can see the few rows of Bikesharing dataframe:
    * The dataframe has 17414 entries, from 0 to 17413.
