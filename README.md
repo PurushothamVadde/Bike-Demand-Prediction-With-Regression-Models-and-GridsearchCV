@@ -123,4 +123,19 @@ After applying the Minmaxscalar and onehot encoding on the features we got the d
 | Lasso_with_GridsearchCV              | 886.790976         | {'alpha': 0.0010000000000000024}                   | 886.851327         |
 | Ridge_with_GridsearchCV              | 886.086497         | {'alpha': 0.03162277660168379}                     | 886.851185         |
 | Elastic_with_GridsearchCV            | 886.944678         | {'alpha': 1.5848931924611134e-05, 'l1_ratio': 0.8} | 886.851187         |
-## Model Evaluation and Conclusion
+
+## Model Evaluation
+From the below table we can see that we got the best results by parameter tuning and we got the least RMSE value for Ridge_with_GridsearchCV and Elastic_with_GridsearchCV models.
+
+|     Model                            | Train RMSE         | Tuning Parameters                                  |      Test RMSE         |
+| :----------------------------------- | :------------------| :------------------------------------------------- | :----------------------|
+| Linear_Regression                    | 885.999083         | none                                               | 905.633076             |
+| Lasso              		       | 886.790976         | none                                               | 906.141956             |
+| Ridge                                | 886.086497         | none                                               | 905.764295             |
+| Elastic                              | 886.944678         | none                                               | 906.506568         	  |
+| Lasso_with_GridsearchCV              | 886.790976         | {'alpha': 0.0010000000000000024}                   | **886.851327**         |
+| Ridge_with_GridsearchCV              | 886.086497         | {'alpha': 0.03162277660168379}                     | **886.851185**         |
+| Elastic_with_GridsearchCV            | 886.944678         | {'alpha': 1.5848931924611134e-05, 'l1_ratio': 0.8} | **886.851187**         |
+
+
+## Conclusion
