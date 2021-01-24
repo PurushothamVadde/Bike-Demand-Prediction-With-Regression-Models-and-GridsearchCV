@@ -102,9 +102,9 @@ After applying the Minmaxscalar and onehot encoding on the features we got the d
 * **Lasso With GridsearchCV**
 ![DataFrame](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/alphavsRMSElasso.png)
 
-* By using the GridsearchCV with CV as 10 and different alpha values we got the RMSE error as above plot.
-* We can see that the RMSE value increases as the alpha value increases from 0.0
-* The Optimal alpha value where the RMSE value is low is 'alpha': 0.0010000000000000024.
+	* By using the GridsearchCV with CV as 10 and different alpha values we got the RMSE error as above plot.
+	* We can see that the RMSE value increases as the alpha value increases from 0.0
+	* The Optimal alpha value where the RMSE value is low is 'alpha': 0.0010000000000000024.
 
 
 |     Model                            | Train RMSE         | Tuning Parameters                                  |      Test RMSE     |
