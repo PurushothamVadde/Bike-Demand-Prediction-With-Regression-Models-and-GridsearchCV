@@ -55,9 +55,24 @@ The Dataframe has below features :
 
 ![DataFrame](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/countVSlinearvariables.png)
 
+#### Temparature VS count in different seasons:
+* From the above plots we can see that the bike sharing is high in season1,2(**Summer,Fall**) and low in season4(**Winter**) and Moderate in season0(**Spring**) 
+#### Temparature Feelslike VS count in different seasons:
+* From the above plots we can see that the bike sharing is high in season1,2(**Summer,Fall**) and low in season4(**Winter**) and Moderate in season0(**Spring**) 
 
 ![DataFrame](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/countvscategoricalvariables.png)
-
+#### weekend VS count:
+* from the above boxplot we can say that the median of bike sharing is higher in weekdays which is **0** and low during weekend which is **1**.
+#### Month VS count:
+* from the above boxplot we can say that the median of bike sharing is higher in Months like 7,6,8,5,9 and moderate in 4,10 and low in remaning months.
+#### hour VS count:
+* from the above boxplot we can say that the median of bike sharing is higher during the hours 7,8,9,17,18,19.
+#### Holiday VS count:
+* from the above boxplot we can say that the median of bike sharing is higher in Non Holidays which is **0** low during holidays which is **1**.
+#### Season VS count:
+* from the above boxplot we can say that the median of bike sharing is higher in season **1** summer.
+#### Weather VS count:
+* from the above boxplot we can say that the median of bike sharing is higher in weather_code **1,2,3**.
 
 ## Feature Engineering
 
