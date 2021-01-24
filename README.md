@@ -56,7 +56,7 @@ The Dataframe has below features :
 ![DataFrame](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/countVSlinearvariables.png)
 
 
-![DataFrame](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/count vs categorical variables.png)
+![DataFrame](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/countvscategoricalvariables.png)
 
 
 ## Feature Engineering
