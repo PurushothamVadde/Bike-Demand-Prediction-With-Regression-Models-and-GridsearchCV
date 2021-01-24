@@ -75,6 +75,20 @@ The Dataframe has below features :
 * from the above boxplot we can say that the median of bike sharing is higher in weather_code **1,2,3**.
 
 ## Feature Engineering
+#### Normalization with MinMaxScalar:
+ MinMaxScalar scales each input variable separately to the range 0-1, in the above data frame the features 't1','t2','hum','wind_speed' are in high scale compare to the other features to normalize the data we applied the MinMaxScalar on the above features.
+
+#### Onehotencoding with pandas:
+A one hot encoding is a representation of categorical variables as binary vectors, A one hot encoding allows the representation of categorical data to be more expressive.
+we applied the onehot encoding on the categorical features 'Weather_code','season','weekend','holiday'.
+
+After applying the Minmaxscalar and onehot encoding on the features we got the dataframe with 24 features as below.
+![DataFrame](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/Dataframe%20(2).png)
+
+
+
+
+ 
 
 ## Modeling and Performance Tuning
 
