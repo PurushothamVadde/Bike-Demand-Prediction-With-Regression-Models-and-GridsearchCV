@@ -1,4 +1,4 @@
-# Bike Demand Prediction With Regression Models and GridsearchCV
+# Bike Sharing Demand Prediction With Regression Models and GridsearchCV
 
 ![BikeShare](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/image1.jpg)
 
