@@ -107,6 +107,7 @@ After applying the Minmaxscalar and onehot encoding on the features we got the d
 	* The Optimal alpha value where the RMSE value is low is 'alpha': 0.0010000000000000024.
 
 * **Ridge With GridsearchCV**
+
 ![DataFrame](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/alphavsRmseridge.png)
 
 	* By using the GridsearchCV with CV as 10 and different alpha values we got the RMSE error as above plot.
