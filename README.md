@@ -2,6 +2,14 @@
 
 ![BikeShare](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/image1.jpg)
 
+This project has below modules:
+- [Business Understanding](#business-understanding)
+- [Data Understanding](#data-Understanding)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Feature Engineering](#feature-engineering)
+- [Modeling and Performance Tuning](#modeling-and-performance-tuning)
+- [Model Evaluation](#model-evaluation)
+- [Conclusion](#conclusion)
 ## Business Understanding
 #### Project Goal:
 The goal of the project is to work on the Bike share Dataset and predict the demand of Bikes sharing on daily basis by building the Regression Models and GridsearchCV.
