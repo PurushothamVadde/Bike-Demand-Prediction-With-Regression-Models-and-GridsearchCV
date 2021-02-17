@@ -99,12 +99,12 @@ After applying the Minmaxscalar and onehot encoding on the features we got the d
 * By predicting the Bike sharing demand on daily basis using the Linear regression models and error evaluation metric as Root Mean Square Error i got errors for each model as     below.
 * Without tuning the performance metrics we got the best results with Linear Regression model with Test_RMSE as 905.633076  where as the Train RMSE is 885.999083.
 		
-|     Model          | Train RMSE         | Tuning Parameters  |      Test RMSE     |
-| :------------------| :------------------| :------------------| :------------------|
-| Linear_Regression  | 885.999083         | none               | 905.633076         |
-| Lasso              | 886.790976         | none               | 906.141956         |
-| Ridge              | 886.086497         | none               | 905.764295         |
-| Elastic            | 886.944678         | none               | 906.506568         |
+|     Model          | Train RMSE     | Tuning Parameters  |    Test RMSE     |
+| :------------------| :--------------| :------------------| :----------------|
+| Linear_Regression  | 0.112723	      | none               | 0.115220         |
+| Lasso              | 0.137703       | none               | 0.138858         |
+| Ridge              | 0.112734	      | none               | 0.115237         |
+| Elastic            | 0.113693       | none               | 0.115977         |
 
 #### Regression Models With GridSearchCV
 
@@ -113,7 +113,7 @@ After applying the Minmaxscalar and onehot encoding on the features we got the d
 
 	* By using the GridsearchCV with CV as 10 and different alpha values we got the RMSE error as above plot.
 	* We can see that the RMSE value increases as the alpha value increases from 0.0
-	* The Optimal alpha value where the RMSE value is low is 'alpha': 0.0010000000000000024.
+	* The Optimal alpha value where the RMSE value is low is 'alpha':  0.00010000000000000005.
 
 * **Ridge With GridsearchCV**
 ![DataFrame](https://github.com/PurushothamVadde/Bike-Demand-Prediction-With-Regression-Models-and-GridsearchCV/blob/main/Images/alphavsRmseridge.png)
@@ -123,28 +123,28 @@ After applying the Minmaxscalar and onehot encoding on the features we got the d
 	* The Optimal alpha value where the RMSE value is low is 'alpha': 0.03162277660168379.
 	
 * **Elastic With GridsearchCV**
-	* By using the GridsearchCV with CV as 10 and different alpha values and l1 norm  we got the RMSE  error as 886.851187.
-	* We got the optimal solution at 'alpha': 1.5848931924611134e-05, 'l1_ratio': 0.8.
+	* By using the GridsearchCV with CV as 10 and different alpha values and l1 norm  we got the RMSE  error as 0.112831.
+	* We got the optimal solution at 'alpha':  3.981071705534978e-06, 'l1_ratio': 0.0.
 	
 |     Model                            | Train RMSE         | Tuning Parameters                                  |      Test RMSE     |
 | :----------------------------------- | :------------------| :------------------------------------------------- | :------------------|
-| Linear_Regression                    | 885.999083         | none                                               | 905.633076         |
-| Lasso_with_GridsearchCV              | 886.790976         | {'alpha': 0.0010000000000000024}                   | 886.851327         |
-| Ridge_with_GridsearchCV              | 886.086497         | {'alpha': 0.03162277660168379}                     | 886.851185         |
-| Elastic_with_GridsearchCV            | 886.944678         | {'alpha': 1.5848931924611134e-05, 'l1_ratio': 0.8} | 886.851187         |
+| Linear_Regression                    | 0.112723	    | none                                               | 0.115220           |
+| Lasso_with_GridsearchCV              | 0.137703           | {'alpha': 0.00010000000000000005}                  | 0.112914           |
+| Ridge_with_GridsearchCV              | 0.112734           | {'alpha': 0.03162277660168379}                     | 0.112831           |
+| Elastic_with_GridsearchCV            | 0.113693           | {'alpha': 3.981071705534978e-06, 'l1_ratio': 0.0}  | 0.112831           |
 
 ## Model Evaluation
 From the below table we can see that we got the best results by parameter tuning and we got the least RMSE value for Ridge_with_GridsearchCV and Elastic_with_GridsearchCV models.
 
 |     Model                            | Train RMSE         | Tuning Parameters                                  |      Test RMSE         |
 | :----------------------------------- | :------------------| :------------------------------------------------- | :----------------------|
-| Linear_Regression                    | 885.999083         | none                                               | 905.633076             |
-| Lasso              		       | 886.790976         | none                                               | 906.141956             |
-| Ridge                                | 886.086497         | none                                               | 905.764295             |
-| Elastic                              | 886.944678         | none                                               | 906.506568         	  |
-| Lasso_with_GridsearchCV              | 886.790976         | {'alpha': 0.0010000000000000024}                   | **886.851327**         |
-| Ridge_with_GridsearchCV              | 886.086497         | {'alpha': 0.03162277660168379}                     | **886.851185**         |
-| Elastic_with_GridsearchCV            | 886.944678         | {'alpha': 1.5848931924611134e-05, 'l1_ratio': 0.8} | **886.851187**         |
+| Linear_Regression  		       | 0.112723	    | none                                               | 0.115220         |
+| Lasso              		       | 0.137703           | none                                               | 0.138858         |
+| Ridge              		       | 0.112734	    | none                                               | 0.115237         |
+| Elastic            		       | 0.113693           | none                                               | 0.115977         |
+| Lasso_with_GridsearchCV              | 0.137703           | {'alpha': 0.00010000000000000005}                  | 0.112914               |
+| Ridge_with_GridsearchCV              | 0.112734           | {'alpha': 0.03162277660168379}                     | **0.112831**           |
+| Elastic_with_GridsearchCV            | 0.113693           | {'alpha': 3.981071705534978e-06, 'l1_ratio': 0.0}  | **0.112831**           |
 
 
 ## Conclusion
