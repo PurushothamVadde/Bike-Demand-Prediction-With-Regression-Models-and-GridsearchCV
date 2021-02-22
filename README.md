@@ -133,6 +133,11 @@ After applying the Minmaxscalar and onehot encoding on the features we got the d
 | Ridge_with_GridsearchCV              | 0.112734           | {'alpha': 0.03162277660168379}                     | 0.112831           |
 | Elastic_with_GridsearchCV            | 0.113693           | {'alpha': 3.981071705534978e-06, 'l1_ratio': 0.0}  | 0.112831           |
 
+
+* **Random Forest with GridsearchCV**
+	* By using RandomForest with parameters as {'max_depth': 32, 'max_features': 'auto', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200} we got the 		best results with RMSE as 0.029 which outperformed all other models.
+
+
 ## Model Evaluation
 From the below table we can see that we got the best results by parameter tuning and we got the least RMSE value for Ridge_with_GridsearchCV and Elastic_with_GridsearchCV models.
 
@@ -142,9 +147,14 @@ From the below table we can see that we got the best results by parameter tuning
 | Lasso              		       | 0.137703           | none                                               | 0.138858         |
 | Ridge              		       | 0.112734	    | none                                               | 0.115237         |
 | Elastic            		       | 0.113693           | none                                               | 0.115977         |
-| Lasso_with_GridsearchCV              | 0.137703           | {'alpha': 0.00010000000000000005}                  | 0.112914               |
-| Ridge_with_GridsearchCV              | 0.112734           | {'alpha': 0.03162277660168379}                     | **0.112831**           |
-| Elastic_with_GridsearchCV            | 0.113693           | {'alpha': 3.981071705534978e-06, 'l1_ratio': 0.0}  | **0.112831**           |
+| Lasso_with_GridsearchCV              | 0.137703           | {'alpha': 0.00010000000000000005}                  | 0.112914          |
+| Ridge_with_GridsearchCV              | 0.112734           | {'alpha': 0.03162277660168379}                     | 0.112831           |
+| Elastic_with_GridsearchCV            | 0.113693           | {'alpha': 3.981071705534978e-06, 'l1_ratio': 0.0}  | 0.112831           |
+| RandomForest_with_GridsearchCV       | 0.012823           | {'max_depth': 32,					 |	0.029340 		|
+|				       |		    |	'max_features': 'auto',				 |			|
+|				       |		    |	'min_samples_leaf': 1, 				 |			|
+|				       |		    |	'min_samples_split': 2,				 |			|
+|				       |		    |	'n_estimators': 200}                             |         |
 
 
 ## Conclusion
