@@ -150,11 +150,11 @@ From the below table we can see that we got the best results by parameter tuning
 | Lasso_with_GridsearchCV              | 0.137703           | {'alpha': 0.00010000000000000005}                  | 0.112914          |
 | Ridge_with_GridsearchCV              | 0.112734           | {'alpha': 0.03162277660168379}                     | 0.112831           |
 | Elastic_with_GridsearchCV            | 0.113693           | {'alpha': 3.981071705534978e-06, 'l1_ratio': 0.0}  | 0.112831           |
-| RandomForest_with_GridsearchCV       | 0.012823           | {'max_depth': 32,					 |	0.029340 		|
-|				       |		    |	'max_features': 'auto',				 |			|
-|				       |		    |	'min_samples_leaf': 1, 				 |			|
-|				       |		    |	'min_samples_split': 2,				 |			|
-|				       |		    |	'n_estimators': 200}                             |         |
+| RandomForest_with_GridsearchCV       | 0.012823           | {'max_depth': 32,	'max_features': 'auto',	'min_samples_leaf': 1,'min_samples_split': 2,'n_estimators': 200}  | **0.029340**    | 	 				
+							 
+												 
+											
+								                            
 
 
 ## Conclusion
